@@ -1,0 +1,99 @@
+
+h1, h3, h5 {
+  text-align: center;
+}
+body {
+  background-color: #f7f8f9;
+}
+header {
+  padding: 5px;
+  margin: 5px;
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 34, 51, 0.1);
+  box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+  border-radius: 0.15rem;
+}
+.quiz-container {
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  clear: both;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+p {
+  text-align: center;
+}
+#quizQ {
+  font-size: 24px;
+  text-align: center;
+}
+#btn0, #btn1, #btn2, #btn3 {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#timerDiv {
+  float: right;
+  margin: 2px;
+  color: #026069;
+}
+#highscoresDiv {
+  float: left;
+  margin: 2px;
+}
+#prev, #next {
+  margin: 20px;
+}
+#submit, #restart {
+  margin: 20px;
+  height: 50px;
+  padding: 5px;
+  width: 150px;
+}
+#quizDiv, #endQuiz, #startOver, #scoresDiv {
+  display: none;
+}
+.hide-me {
+  display: block;
+}
+#startDiv {
+  height: 350px;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+input[type=text], input[type=email], textarea {
+  height: 50px !important;
+  width: 100%;
+  margin-top: 5px !important;
+  border-radius: 3px;
+  padding: 0 10px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+}
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  background-color: #25a2b7;
+  border-color: #25a2b7;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #25a2b7;
+}
+.clearfix {
+  overflow: auto;
+}
